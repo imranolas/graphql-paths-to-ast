@@ -1,6 +1,6 @@
 {
   "name": "graphql-paths-to-ast",
-  "version": "0.1",
+  "version": "0.1.1",
   "description": "A function to transform a list of paths to a GraphQL AST",
   "author": "Imran Sulemanji <imran.sulemanji@gmail.com>",
   "repository": {
@@ -10,16 +10,19 @@
   "bugs": {
     "url": "https://github.com/imranolas/graphql-paths-to-ast/issues"
   },
-  "keywords": ["graphql", "ast"],
+  "keywords": [
+    "graphql",
+    "ast"
+  ],
   "main": "paths-to-ast.js",
   "license": "MIT",
   "scripts": {
     "test": "jest ./"
   },
   "dependencies": {
+    "graphql": "^0.11.7",
     "graphql-ast-types": "^0.1.1",
-    "lodash": "^4.17.4",
-    "graphql": "^0.11.7"
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "jest": "^21.2.1"
