@@ -3,7 +3,7 @@ const t = require('graphql-ast-types');
 
 describe('paths2Ast', () => {
   test('should accept an empty array', () => {
-    expect(pathsToAst([])).toBe(1);
+    expect(pathsToAst([])).toBe(null);
   });
 
   [

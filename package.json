@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "graphql": "^0.11.7",
-    "graphql-ast-types": "^0.1.1",
+    "graphql-ast-types": "^0.2.0",
     "lodash": "^4.17.4"
   },
   "devDependencies": {

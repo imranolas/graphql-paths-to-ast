@@ -829,11 +829,9 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-graphql-ast-types@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/graphql-ast-types/-/graphql-ast-types-0.1.1.tgz#9136b666d074ea3e55946ecde421f215742799fb"
-  dependencies:
-    lodash "^4.17.4"
+graphql-ast-types@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/graphql-ast-types/-/graphql-ast-types-0.2.0.tgz#6df45cf739407be2de6c244b3f19c3cdbe62cb06"
 
 graphql@^0.11.7:
   version "0.11.7"

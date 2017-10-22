@@ -57,14 +57,11 @@ pathsToAst([
 }
 */
 
+const pathsToAst = require('graphql-paths-to-ast');
 const {print} = require('graphql')
 
 print(
-  pathsToAst([
-    'name',
-    'address.city',
-    'address.country'
-  ])
+  pathsToAst([ 'name', 'address.city', 'address.country' ])
 );
 
 /*
